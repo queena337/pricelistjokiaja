@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jokiaja.go — Jasa Bantuan Tugas Cepat & Terpercaya</title>
+  <meta name="description" content="Jokiaja.go — Jasa bantuan tugas: makalah, laporan, PPT, desain poster. Cepat, aman, dan terpercaya." />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- ========== NAVBAR ========== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo">
+        <i class="fa-solid fa-pen-to-square"></i> Jokiaja<span>.go</span>
+      </a>
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#layanan">Layanan</a></li>
+          <li><a href="#keunggulan">Keunggulan</a></li>
+          <li><a href="#pricelist">Harga</a></li>
+          <li><a href="#cara-order">Cara Order</a></li>
+          <li><a href="#portofolio">Portofolio</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#kontak" class="btn-nav">Order Now</a></li>
+        </ul>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="home">
+    <div class="hero-bg-glow"></div>
+    <div class="container hero-content">
+      <div class="hero-text">
+        <span class="badge">
+          <span class="dot"></span> Online — Siap Terima Order
+        </span>
+        <h1>Bantuan Tugas <span class="highlight">Cepat, Aman</span> & Terpercaya</h1>
+        <p>Makalah, laporan, PPT, desain poster — semua bisa dibantu. Deadline mepet? Tenang, kami siap.</p>
+        <div class="hero-buttons">
+          <a href="#pricelist" class="btn btn-primary">
+            <i class="fa-solid fa-tags"></i> Lihat Harga
+          </a>
+          <a href="https://wa.me/838-4360-2400" 
+             target="_blank" class="btn btn-outline">
+            <i class="fa-brands fa-whatsapp"></i> Chat WA
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>Mulai Rp 20K</strong><span>Harga Terjangkau</span></div>
+          <div><strong>&lt; 1 Jam</strong><span>Respon Cepat</span></div>
+          <div><strong>2x Gratis</strong><span>Revisi</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== LAYANAN ========== -->
+  <section class="section" id="layanan">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Layanan Kami</span>
+        <h2>Apa Aja yang Bisa Dibantu?</h2>
+        <p>Fokus ke 4 layanan utama, dikerjakan dengan maksimal.</p>
+      </div>
+      <div class="grid-4">
+        <div class="card reveal">
+          <div class="card-icon"><i class="fa-solid fa-book"></i></div>
+          <h3>Makalah</h3>
+          <p>Makalah kuliah, essay, paper — lengkap dengan referensi terpercaya.</p>
+        </div>
+        <div class="card reveal">
+          <div class="card-icon"><i class="fa-solid fa-flask"></i></div>
+          <h3>Laporan</h3>
+          <p>Laporan praktikum, kunjungan, atau kegiatan — rapi & terstruktur.</p>
+        </div>
+        <div class="card reveal">
+          <div class="card-icon"><i class="fa-solid fa-display"></i></div>
+          <h3>PPT / Presentasi</h3>
+          <p>Slide presentasi menarik, rapi, dan siap pakai.</p>
+        </div>
+        <div class="card reveal">
+          <div class="card-icon"><i class="fa-solid fa-palette"></i></div>
+          <h3>Desain Poster</h3>
+          <p>Poster, infografis, atau banner — desain clean & eye-catching.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== KEUNGGULAN ========== -->
+  <section class="section section-alt" id="keunggulan">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Kenapa Kami?</span>
+        <h2>Alasan Pilih Jokiaja.go</h2>
+        <p>Bukan cuma joki biasa — kami beneran profesional.</p>
+      </div>
+      <div class="grid-4">
+        <div class="feature reveal">
+          <div class="feature-icon"><i class="fa-solid fa-bolt"></i></div>
+          <h3>Cepat</h3>
+          <p>Respon dalam hitungan menit, pengerjaan tepat waktu.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <h3>Aman 100%</h3>
+          <p>Identitas & data kamu dijamin kerahasiaannya.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="feature-icon"><i class="fa-solid fa-rotate"></i></div>
+          <h3>Revisi Gratis</h3>
+          <p>Revisi 2x gratis, sampai hasilnya sesuai keinginan.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="feature-icon"><i class="fa-solid fa-wallet"></i></div>
+          <h3>Harga Terjangkau</h3>
+          <p>Harga bersahabat kantong mahasiswa, bisa nego.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PRICELIST ========== -->
+  <section class="section" id="pricelist">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Price List</span>
+        <h2>Daftar Harga</h2>
+        <p>Harga transparan, tanpa biaya tersembunyi.</p>
+      </div>
+
+      <!-- Filter -->
+      <div class="filter-bar reveal">
+        <button class="filter-btn active" data-filter="all">Semua</button>
+        <button class="filter-btn" data-filter="tulis">Penulisan</button>
+        <button class="filter-btn" data-filter="desain">Desain</button>
+      </div>
+
+      <div class="table-wrapper reveal">
+        <table class="price-table">
+          <thead>
+            <tr>
+              <th>Jenis Tugas</th>
+              <th>Harga Mulai</th>
+              <th>Estimasi</th>
+            </tr>
+          </thead>
+          <tbody id="priceBody">
+            <tr data-category="tulis">
+              <td><i class="fa-solid fa-book"></i> Makalah (10–15 hal) <span class="tag-pop">Populer</span></td>
+              <td class="price">Rp 50.000</td>
+              <td>2–3 hari</td>
+            </tr>
+            <tr data-category="tulis">
+              <td><i class="fa-solid fa-flask"></i> Laporan Praktikum / Kegiatan</td>
+              <td class="price">Rp 35.000</td>
+              <td>1–2 hari</td>
+            </tr>
+            <tr data-category="desain">
+              <td><i class="fa-solid fa-display"></i> PPT (10 slide) <span class="tag-pop">Best Seller</span></td>
+              <td class="price">Rp 25.000</td>
+              <td>1 hari</td>
+            </tr>
+            <tr data-category="desain">
+              <td><i class="fa-solid fa-palette"></i> Desain Poster / Infografis</td>
+              <td class="price">Rp 40.000</td>
+              <td>1–2 hari</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="price-note reveal">
+        <i class="fa-solid fa-circle-info"></i>
+        Harga bisa menyesuaikan tingkat kesulitan & deadline. Nego? Boleh, chat aja.
+      </p>
+
+      <div class="center reveal">
+        <a href="https://wa.me/838-4360-2400" 
+           target="_blank" class="btn btn-primary">
+          <i class="fa-brands fa-whatsapp"></i> Tanya Harga via WA
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CARA ORDER ========== -->
+  <section class="section section-alt" id="cara-order">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Cara Order</span>
+        <h2>Gampang Banget, Cuma 4 Langkah</h2>
+      </div>
+      <div class="steps">
+        <div class="step reveal">
+          <div class="step-num">1</div>
+          <h3>Chat Kami</h3>
+          <p>Hubungi via WhatsApp, ceritakan tugas kamu.</p>
+        </div>
+        <div class="step reveal">
+          <div class="step-num">2</div>
+          <h3>Konfirmasi Harga</h3>
+          <p>Kami kasih harga & estimasi waktu pengerjaan.</p>
+        </div>
+        <div class="step reveal">
+          <div class="step-num">3</div>
+          <h3>DP & Pengerjaan</h3>
+          <p>Bayar DP 50%, tugas langsung dikerjakan.</p>
+        </div>
+        <div class="step reveal">
+          <div class="step-num">4</div>
+          <h3>Terima Hasil</h3>
+          <p>File dikirim, pelunasan, gratis revisi.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PORTOFOLIO / COMING SOON ========== -->
+  <section class="section" id="portofolio">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Portofolio</span>
+        <h2>Portofolio Kami</h2>
+        <p>Sedang dikumpulkan — segera hadir.</p>
+      </div>
+
+      <div class="coming-soon reveal">
+        <div class="coming-icon">
+          <i class="fa-solid fa-folder-open"></i>
+        </div>
+        <h3>Portofolio Segera Hadir</h3>
+        <p>
+          Kami baru saja memulai, dan sedang mengumpulkan hasil-hasil kerja 
+          terbaik untuk ditampilkan di sini. Sementara itu, kamu bisa langsung 
+          chat kami untuk melihat contoh hasil kerja atau tanya-tanya dulu.
+        </p>
+        <a href="https://wa.me/838-4360-2400" 
+           target="_blank" class="btn btn-primary">
+          <i class="fa-brands fa-whatsapp"></i> Minta Contoh Hasil
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FAQ ========== -->
+  <section class="section section-alt" id="faq">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">FAQ</span>
+        <h2>Pertanyaan yang Sering Ditanya</h2>
+      </div>
+
+      <div class="faq-search reveal">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" id="faqSearch" placeholder="Cari pertanyaan... (misal: revisi, bayar)">
+      </div>
+
+      <div class="faq-list" id="faqList">
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            Apakah kerahasiaan terjaga?
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>100% aman. Identitas kamu ga akan kami sebar ke siapapun. Data tugas juga kami hapus setelah selesai.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            Bisa revisi berapa kali?
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Revisi gratis 2x. Kalau ada revisi tambahan, bisa nego lagi.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            Metode pembayaran apa aja?
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Transfer bank (BCA, Mandiri, BRI), e-wallet (Dana, OVO, GoPay, ShopeePay), atau QRIS.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            Kalau deadline mepet, bisa?
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Bisa, tapi ada biaya tambahan (rush fee) tergantung seberapa mepet. Chat aja dulu buat cek slot.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            Apakah bisa nego harga?
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Bisa, apalagi kalau order banyak atau langganan. Nego yang sopan ya 😄</p>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            Bayar DP dulu atau full?
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>DP 50% dulu, sisanya dilunasi setelah tugas selesai & kamu puas dengan hasilnya.</p>
+          </div>
+        </div>
+      </div>
+      <p class="no-result" id="noResult" style="display:none;">Pertanyaan ga ketemu. Coba kata kunci lain, atau chat kami langsung.</p>
+    </div>
+  </section>
+
+  <!-- ========== KONTAK ========== -->
+  <section class="section" id="kontak">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Kontak</span>
+        <h2>Hubungi Kami</h2>
+        <p>Respon cepat, biasanya dalam 1 jam.</p>
+      </div>
+      <div class="contact-grid">
+        <a href="https://wa.me/6283843602400" target="_blank" class="contact-card reveal">
+          <i class="fa-brands fa-whatsapp"></i>
+          <h3>WhatsApp</h3>
+          <p>+62 838-4360-2400</p>
+        </a>
+        <a href="https://instagram.com/jokiaja.go" target="_blank" class="contact-card reveal">
+          <i class="fa-brands fa-instagram"></i>
+          <h3>Instagram</h3>
+          <p>@jokiaja.go</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div>
+        <a href="#home" class="logo">
+          <i class="fa-solid fa-pen-to-square"></i> Jokiaja<span>.go</span>
+        </a>
+        <p>Bantuan tugas akademik, cepat & terpercaya.</p>
+      </div>
+      <div>
+        <h4>Navigasi</h4>
+        <ul>
+          <li><a href="#layanan">Layanan</a></li>
+          <li><a href="#pricelist">Harga</a></li>
+          <li><a href="#portofolio">Portofolio</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Kontak</h4>
+        <ul>
+          <li><i class="fa-brands fa-whatsapp"></i> +62 838-4360-2400</li>
+          <li><i class="fa-brands fa-instagram"></i> @jokiaja.go</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Jokiaja.go. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Floating WA Button -->
+  <a href="https://wa.me/6283843602400" 
+     target="_blank" class="wa-float" aria-label="Chat WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Kembali ke atas">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
